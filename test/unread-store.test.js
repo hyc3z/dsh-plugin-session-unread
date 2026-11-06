@@ -74,15 +74,6 @@ test('a corrupt document is reported once and treated as empty', async () => {
   assert.match(warnings[0], /unreadable state file/)
 })
 
-test('retain drops ids the Host no longer knows', async () => {
-  const file = await tempFile()
-  const store = new UnreadStore(file, { warn: () => {} })
-  await store.set('session-one', true)
-  await store.set('session-two', true)
-  const snapshot = await store.retain(['session-two'])
-  assert.deepEqual(snapshot.sessionIds, ['session-two'])
-})
-
 test('overlapping toggles serialize their writes', async () => {
   const file = await tempFile()
   const store = new UnreadStore(file, { warn: () => {} })

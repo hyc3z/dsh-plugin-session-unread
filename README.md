@@ -7,6 +7,7 @@
 ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 ![platform](https://img.shields.io/badge/platform-DSH%20Web%20%2F%20Desktop-4D6BFE)
 ![version](https://img.shields.io/badge/version-0.1.0-2EA44F)
+[![test](https://github.com/hyc3z/dsh-plugin-session-unread/actions/workflows/test.yml/badge.svg)](https://github.com/hyc3z/dsh-plugin-session-unread/actions/workflows/test.yml)
 ![build](https://img.shields.io/badge/build-none%20required-lightgrey)
 
 ---

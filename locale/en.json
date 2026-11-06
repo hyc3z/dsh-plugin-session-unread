@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Session unread mark",
+    "description": "Mark a session unread from its menu, get a dot before the title, and clear it when you open the session."
+  }
+}

@@ -1,0 +1,5 @@
+# Bundle patch contributed when this package is listed in
+# `dsh.profile.bundles`: one root-level plugin entry, no configuration.
+- insert:
+    - id: session-unread
+      name: dsh-plugin-session-unread
